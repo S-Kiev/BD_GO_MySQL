@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/AJRDRGZ/go-db/pkg/invoiceitem"
+	"github.com/S-Kiev/BD_GO_MySQL/pkg/invoiceitem"
 )
 
 const (

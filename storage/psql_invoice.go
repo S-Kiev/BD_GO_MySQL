@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/AJRDRGZ/go-db/pkg/invoice"
-	"github.com/AJRDRGZ/go-db/pkg/invoiceheader"
-	"github.com/AJRDRGZ/go-db/pkg/invoiceitem"
+	"github.com/S-Kiev/BD_GO_MySQL/pkg/invoice"
+	"github.com/S-Kiev/BD_GO_MySQL/pkg/invoiceheader"
+	"github.com/S-Kiev/BD_GO_MySQL/pkg/invoiceitem"
 )
 
 // PsqlInvoice used for work with postgres - invoice

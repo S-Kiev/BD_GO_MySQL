@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/AJRDRGZ/go-db/pkg/product"
+	"github.com/S-Kiev/BD_GO_MySQL/pkg/product"
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
 )
@@ -55,7 +55,7 @@ func newPostgresDB() {
 func newMySQLDB() {
 	once.Do(func() {
 		var err error
-		db, err = sql.Open("mysql", "edteam:edteam@tcp(localhost:7531)/godb?parseTime=true")
+		db, err = sql.Open("mysql", "S-Kiev:sakura1997@tcp(localhost:3306)/bd-cursogo?parseTime=true")
 		if err != nil {
 			log.Fatalf("can't open db: %v", err)
 		}

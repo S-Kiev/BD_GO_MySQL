@@ -1,8 +1,8 @@
 package invoice
 
 import (
-	"github.com/AJRDRGZ/go-db/pkg/invoiceheader"
-	"github.com/AJRDRGZ/go-db/pkg/invoiceitem"
+	"github.com/S-Kiev/BD_GO_MySQL/pkg/invoiceheader"
+	"github.com/S-Kiev/BD_GO_MySQL/pkg/invoiceitem"
 )
 
 // Model of invoice
